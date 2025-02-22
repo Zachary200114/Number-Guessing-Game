@@ -1,15 +1,15 @@
-## 🎲 Number Guessing Game
+## Number Guessing Game
 
 This is a **Simple Number Guessing Game** built using Python. The program generates a random number between 1 and 10, and the user has to guess the correct number. The game provides feedback if the guess is too high or too low until the user guesses correctly.
 
-## 🚀 Features
+## Features
 
-- 🎛️ Random number generation between 1 and 10.
-- 📈 Feedback for each guess (too high, too low).
-- 🎉 Success message when the correct number is guessed.
-- 🕹️ Infinite attempts until the user wins.
+- Random number generation between 1 and 10.
+- Feedback for each guess (too high, too low).
+- Success message when the correct number is guessed.
+- Infinite attempts until the user wins.
 
-## 📦 Requirements
+## Requirements
 
 Ensure you have Python installed. To check your Python version, run:
 
@@ -17,7 +17,7 @@ Ensure you have Python installed. To check your Python version, run:
 python --version
 ```
 
-## 💻 How to Run
+## How to Run
 
 1. Copy the code into a `.py` file, for example: `number_guessing.py`.
 
@@ -31,7 +31,7 @@ python number_guessing.py
 
 4. Follow the on-screen instructions and guess the number.
 
-## 🖱️ Example Usage
+## Example Usage
 
 ```
 Guess a number between 1 and 10!: 5
@@ -45,12 +45,12 @@ You got it congratulations!
 Game Over good Job!
 ```
 
-## ⚙️ Customization
+## Customization
 
 - **Range:** Change `random.randint(1, 10)` to any range you prefer.
 - **Difficulty:** Add a guess limit if you want to make it more challenging.
 - **Replay Option:** Modify the code to restart the game after each win.
 
-## 📝 Known Issues
+## Known Issues
 
 - Entering a non-integer input will raise a `ValueError` and crash the program.
